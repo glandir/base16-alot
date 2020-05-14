@@ -57,93 +57,93 @@ B06 = 'h21'
 
 # format with '<,'>Tabularize /\(,\)\@<=[^b]/l0
 [global]
-    footer            = 'default',   '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
-    body              = 'default',   '',        'default',      'default', 'default',      'default'
-    notify_error      = 'standout',  '',        '%(b08)s,bold', '%(b01)s', '%(B08)s,bold', '%(B01)s'
-    notify_normal     = 'default',   '',        '%(b0B)s',      '%(b01)s', '%(B0B)s',      '%(B01)s'
-    prompt            = 'default',   '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
-    tag               = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
-    tag_focus         = 'bold',      '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
+	footer            = 'default',   '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
+	body              = 'default',   '',        'default',      'default', 'default',      'default'
+	notify_error      = 'standout',  '',        '%(b08)s,bold', '%(b01)s', '%(B08)s,bold', '%(B01)s'
+	notify_normal     = 'default',   '',        '%(b0B)s',      '%(b01)s', '%(B0B)s',      '%(B01)s'
+	prompt            = 'default',   '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
+	tag               = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
+	tag_focus         = 'bold',      '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
 
 [help]
-    text              = 'default',   '',        'default',      '%(b01)s', 'default',      '%(B01)s'
-    section           = 'underline', '',        '%(b09)s,bold', '%(b01)s', '%(B09)s,bold', '%(B01)s'
-    title             = 'standout',  '',        '%(b09)s,bold', '%(b01)s', '%(B09)s,bold', '%(B01)s'
+	text              = 'default',   '',        'default',      '%(b01)s', 'default',      '%(B01)s'
+	section           = 'underline', '',        '%(b09)s,bold', '%(b01)s', '%(B09)s,bold', '%(B01)s'
+	title             = 'standout',  '',        '%(b09)s,bold', '%(b01)s', '%(B09)s,bold', '%(B01)s'
 
 [bufferlist]
-    line_focus        = 'standout',  '',        'default',      '%(b01)s', 'default',      '%(B01)s'
-    line_even         = 'default',   '',        'default',      'default', 'default',      'default'
-    line_odd          = 'default',   '',        'default',      'default', 'default',      'default'
+	line_focus        = 'standout',  '',        'default',      '%(b01)s', 'default',      '%(B01)s'
+	line_even         = 'default',   '',        'default',      'default', 'default',      'default'
+	line_odd          = 'default',   '',        'default',      'default', 'default',      'default'
 
 [taglist]
-    line_focus        = 'standout',  '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
-    line_even         = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
-    line_odd          = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
+	line_focus        = 'standout',  '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
+	line_even         = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
+	line_odd          = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
 
 [namedqueries]
-    line_focus        = 'standout',  '',        'default',      '%(b01)s', 'default',      '%(B01)s'
-    line_even         = 'default',   '',        'default',      'default', 'default',      'default'
-    line_odd          = 'default',   '',        'default',      'default', 'default',      'default'
+	line_focus        = 'standout',  '',        'default',      '%(b01)s', 'default',      '%(B01)s'
+	line_even         = 'default',   '',        'default',      'default', 'default',      'default'
+	line_odd          = 'default',   '',        'default',      'default', 'default',      'default'
 
 [thread]
-    arrow_heads       = '',          '',        '%(b03)s',      'default', '%(B03)s',      'default'
-    arrow_bars        = '',          '',        '%(b03)s',      'default', '%(B03)s',      'default'
-    attachment        = 'default',   '',        '%(b09)s',      'default', '%(B09)s',      'default'
-    attachment_focus  = 'underline', '',        '%(b09)s',      '%(b01)s', '%(B09)s',      '%(B01)s'
-    body              = 'default',   '',        'default',      'default', 'default',      'default'
-    body_focus        = 'default',   '',        'default',      '%(b01)s', 'default',      '%(B01)s'
-    header            = 'default',   '',        'default',      'default', 'default',      'default'
-    header_key        = 'default',   '',        '%(b03)s,bold', 'default', '%(B03)s,bold', 'default'
-    header_value      = 'default',   '',        '%(b03)s',      'default', '%(B03)s',      'default'
+	arrow_heads       = '',          '',        '%(b03)s',      'default', '%(B03)s',      'default'
+	arrow_bars        = '',          '',        '%(b03)s',      'default', '%(B03)s',      'default'
+	attachment        = 'default',   '',        '%(b09)s',      'default', '%(B09)s',      'default'
+	attachment_focus  = 'underline', '',        '%(b09)s',      '%(b01)s', '%(B09)s',      '%(B01)s'
+	body              = 'default',   '',        'default',      'default', 'default',      'default'
+	body_focus        = 'default',   '',        'default',      '%(b01)s', 'default',      '%(B01)s'
+	header            = 'default',   '',        'default',      'default', 'default',      'default'
+	header_key        = 'default',   '',        '%(b03)s,bold', 'default', '%(B03)s,bold', 'default'
+	header_value      = 'default',   '',        '%(b03)s',      'default', '%(B03)s',      'default'
 [[summary]]
-    even              = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
-    odd               = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
-    focus             = 'standout',  '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
+	even              = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
+	odd               = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
+	focus             = 'standout',  '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
 
 [envelope]
-    body              = 'default',   '',        'default',      'default', 'default',      'default'
-    header            = 'default',   '',        'default',      'default', 'default',      'default'
-    header_key        = 'default',   '',        '%(b03)s,bold', 'default', '%(B03)s,bold', 'default'
-    header_value      = 'default',   '',        '%(b03)s',      'default', '%(B03)s',      'default'
+	body              = 'default',   '',        'default',      'default', 'default',      'default'
+	header            = 'default',   '',        'default',      'default', 'default',      'default'
+	header_key        = 'default',   '',        '%(b03)s,bold', 'default', '%(B03)s,bold', 'default'
+	header_value      = 'default',   '',        '%(b03)s',      'default', '%(B03)s',      'default'
 
 [search]
 
 [[threadline]]
-    normal            = 'default',   '',        'default',      'default', 'default',      'default'
-    focus             = 'default',   '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
-    parts             = date,        mailcount, tags,           authors,   subject
+	normal            = 'default',   '',        'default',      'default', 'default',      'default'
+	focus             = 'default',   '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
+	parts             = date,        mailcount, tags,           authors,   subject
 [[[date]]]
-    normal            = 'default',   '',        '%(b05)s',      '%(b00)s', '%(B05)s',      '%(B00)s'
-    focus             = 'standout',  '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
-    width             = 'fit',       10,        10
-    alignment         = right
+	normal            = 'default',   '',        '%(b05)s',      '%(b00)s', '%(B05)s',      '%(B00)s'
+	focus             = 'standout',  '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
+	width             = 'fit',       10,        10
+	alignment         = right
 [[[mailcount]]]
-    normal            = 'default',   '',        '%(b05)s',      '%(b00)s', '%(B05)s',      '%(B00)s'
-    focus             = 'standout',  '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
-    width             = 'fit',       5,         5
+	normal            = 'default',   '',        '%(b05)s',      '%(b00)s', '%(B05)s',      '%(B00)s'
+	focus             = 'standout',  '',        '%(b05)s',      '%(b01)s', '%(B05)s',      '%(B01)s'
+	width             = 'fit',       5,         5
 [[[tags]]]
-    normal            = 'bold',      '',        '%(b0C)s',      'default', '%(B0C)s',      'default'
-    focus             = 'standout',  '',        '%(b0C)s',      '%(b01)s', '%(B0C)s',      '%(B01)s'
+	normal            = 'bold',      '',        '%(b0C)s',      'default', '%(B0C)s',      'default'
+	focus             = 'standout',  '',        '%(b0C)s',      '%(b01)s', '%(B0C)s',      '%(B01)s'
 [[[authors]]]
-    normal            = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
-    focus             = 'standout',  '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
-    width             = 'fit',       0,         30
+	normal            = 'default',   '',        '%(b0D)s',      'default', '%(B0D)s',      'default'
+	focus             = 'standout',  '',        '%(b0D)s',      '%(b01)s', '%(B0D)s',      '%(B01)s'
+	width             = 'fit',       0,         30
 [[[subject]]]
-    normal            = 'default',   '',        'default',      'default', 'default',      'default'
-    focus             = 'standout',  '',        'default',      '%(b01)s', 'default',      '%(B01)s'
-    width             = 'weight',    1
+	normal            = 'default',   '',        'default',      'default', 'default',      'default'
+	focus             = 'standout',  '',        'default',      '%(b01)s', 'default',      '%(B01)s'
+	width             = 'weight',    1
 [[[content]]]
-    normal            = 'default',   '',        '%(b03)s',      'default', '%(B03)s',      'default'
-    focus             = 'standout',  '',        '%(b03)s',      '%(b01)s', '%(B03)s',      '%(B01)s'
-    width             = 'weight',    1
+	normal            = 'default',   '',        '%(b03)s',      'default', '%(B03)s',      'default'
+	focus             = 'standout',  '',        '%(b03)s',      '%(b01)s', '%(B03)s',      '%(B01)s'
+	width             = 'weight',    1
 
 
 [[threadline-unread]]
-    tagged_with       = 'unread'
-    parts             = date,        mailcount, tags,           authors,   subject
+	tagged_with       = 'unread'
+	parts             = date,        mailcount, tags,           authors,   subject
 [[[date]]]
-    normal            = 'default',   '',        '%(b06)s',      'default', '%(B06)s',      'default'
-    focus             = 'default',   '',        '%(b06)s',      '%(b01)s', '%(B06)s',      '%(B01)s'
+	normal            = 'default',   '',        '%(b06)s',      'default', '%(B06)s,bold', 'default'
+	focus             = 'default',   '',        '%(b06)s',      '%(b01)s', '%(B06)s,bold', '%(B01)s'
 [[[subject]]]
-    normal            = 'default',   '',        '%(b06)s,bold', 'default', '%(B06)s,bold', 'default'
-    focus             = 'default',   '',        '%(b06)s,bold', '%(b01)s', '%(B06)s,bold', '%(B01)s'
+	normal            = 'default',   '',        '%(b06)s,bold', 'default', '%(B06)s,bold', 'default'
+	focus             = 'default',   '',        '%(b06)s,bold', '%(b01)s', '%(B06)s,bold', '%(B01)s'
